@@ -1,9 +1,9 @@
 {
-  "name": "text-lint-spellcheck-growthbeat-word",
+  "name": "textlint-rule-spellcheck-growthbeat-word",
   "version": "0.0.1",
   "description": "textlint rule: spell check growthbeat word.",
   "author": "Sota Yamashita <sota_yamashita@sirok.co.jp>",
-  "repository": "sotayamashita/text-lint-spellcheck-growthbeat-word",
+  "repository": "sotayamashita/textlint-rule-spellcheck-growthbeat-word",
   "main": "spellcheck-growthbeat-word.js",
   "license": "BSD-3-Clause",
   "scripts": {
