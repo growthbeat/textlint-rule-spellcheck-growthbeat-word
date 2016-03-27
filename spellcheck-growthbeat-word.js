@@ -1,6 +1,7 @@
 "use strict";
 var RuleHelper = require("textlint-rule-helper").RuleHelper;
 var spellCheck = require("spellcheck-growthbeat-word").spellCheckText;
+var dictionaryItems = require("growthbeat-word-rules");
 /**
  * @param {RuleContext} context
  *
@@ -16,7 +17,7 @@ function reporter(context) {
             return;
         }
         var text = context.getSource(node);
-        var results = spellCheck(text);
+        var results = spellCheck(text, dictionaryItems);
         results.forEach(function (/*SpellCheckResult*/result) {
             // line, column
             var fixCommand = fixer.replaceTextRange([

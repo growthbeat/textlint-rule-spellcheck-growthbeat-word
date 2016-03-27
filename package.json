@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-spellcheck-growthbeat-word",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "textlint rule: spell check growthbeat word.",
   "author": "Sota Yamashita <sota_yamashita@sirok.co.jp>",
   "repository": "sotayamashita/textlint-rule-spellcheck-growthbeat-word",
@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "spellcheck-growthbeat-word": "0.0.2",
+    "growthbeat-word-rules": "0.0.2",
+    "spellcheck-word": "0.0.2",
     "textlint-rule-helper": "^1.1.5"
   },
   "peerDependencies": {
