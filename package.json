@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "growthbeat-word-rules": "0.0.2",
-    "spellcheck-word": "0.0.2",
+    "spellcheck-word": "0.0.3",
     "textlint-rule-helper": "^1.1.5"
   },
   "peerDependencies": {
