@@ -1,6 +1,6 @@
 "use strict";
 var RuleHelper = require("textlint-rule-helper").RuleHelper;
-var spellCheck = require("spellcheck-growthbeat-word").spellCheckText;
+var spellCheck = require("spellcheck-word").spellCheckText;
 var dictionaryItems = require("growthbeat-word-rules");
 /**
  * @param {RuleContext} context
